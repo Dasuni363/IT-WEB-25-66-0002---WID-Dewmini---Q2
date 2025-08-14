@@ -1,4 +1,53 @@
 ﻿@page
 @model Q2__WID_Dewmini.Pages.CoursesModel
 @{
+    ViewData["Title"] = "Courses";
 }
+
+<h1>@ViewData["Title"]</h1>
+
+<p>Onlne courses Available</p>
+<div class="table-responsive">
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+                <th>Lecturer Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>WEB DEVELOPMENT</td>
+                <td>M.M.Herath</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>GRAPHIC DESIGN</td>
+                <td>J.S.V.Piyasena</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MOBILE APP DEVELOPMENT</td>
+                <td>K.K.S.Dias</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>JAVA</td>
+                <td>U.H.S.Perera</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div style="text-align: center; margin-top: 20px;">
+    <button style="background-color: #0d6efd; color: white; padding: 10px 20px; border: none; font-size: 16px; cursor: pointer; border-radius: 5px; margin: 5px;">
+        Add Courses
+    </button>
+    <button style="background-color: #198754; color: white; padding: 10px 20px; border: none; font-size: 16px; cursor: pointer; border-radius: 5px; margin: 5px;">
+        Edit Courses
+    </button>
+</div>
+
+
+
